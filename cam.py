@@ -9,7 +9,7 @@ def get_video_source():
     root = tk.Tk()
     root.withdraw()
     # 弹出对话框，让用户输入视频源的URL或本地文件路径
-    video_source = simpledialog.askstring("听风说 联系QQ：418881872", "输入视频源的URL或本地文件路径:")
+    video_source = simpledialog.askstring("听风说", "输入视频源的URL或本地文件路径:")
     return video_source
 
 
